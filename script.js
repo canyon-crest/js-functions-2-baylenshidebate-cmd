@@ -75,7 +75,7 @@ if (isNaN(max) || max<1){
 
 function myAdder(x, y) {
   // Write your code here
-
+return x+y;
 }
 
 
@@ -93,7 +93,10 @@ function myAdder(x, y) {
 
 function distance(x1, y1, x2, y2) {
   // Write your code here
-
+let dx2 = Math.pow(x2-x1, 2);
+let dy2 = Math.pow(y2-y1, 2);
+let sum = dx2 + dy2;
+return Math.sqrt(sum).toFixed(2);
 }
 
 
@@ -108,7 +111,9 @@ function distance(x1, y1, x2, y2) {
 
 function tipCalc(bill, tipPercent) {
   // Write your code here
-
+let tip = bill * (tipPercent / 100);
+let total = bill + tip;
+return total.toFixed(2);
 }
 
 
