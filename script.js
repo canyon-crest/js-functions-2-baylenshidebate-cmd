@@ -59,7 +59,10 @@ return count;
 
 function getRandomNum(max) {
   // Write your code here
-
+if (isNaN(max) || max<1){
+  let randomNum = Math.floor(Math.random()* max) + 1;
+  return randomNum;
+} 
 }
 
 
