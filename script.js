@@ -14,12 +14,13 @@
 // This function takes a name and returns a greeting string.
 //
 // STEP 1: The function receives one parameter called "name".
+
 // STEP 2: Return the string "Hello, " + name + "!"
 //         Example: greet("Alice") should return "Hello, Alice!"
 
 function greet(name) {
   // Write your code here
-
+return "Hello, " + name + "!";
 }
 
 
@@ -35,11 +36,12 @@ function greet(name) {
 // STEP 3: Return the new count value.
 //         First click → returns 1, second → returns 2, etc.
 
-
+let count = 0;
 
 function myFunc() {
   // Write your code here
-
+count++;
+return count;
 }
 
 
